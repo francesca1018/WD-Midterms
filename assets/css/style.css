@@ -1,0 +1,238 @@
+body {
+    background-color: black;
+    color:rgb(255, 255, 255) ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensure the body fills the viewport height */
+
+}
+
+.headerimage {
+    background-color: rgb(255, 152, 152);
+    height: 50vh;
+    width: 100vw;
+}
+
+
+.smolcontainer {
+    justify-content: center;
+    background-color: #EDDDDD;
+    position: absolute;
+    top: 250px;
+    left: 30vw;
+    width: 500px;
+    height: 190px;
+    border: 3px solid #EDDDDD;
+    border-radius: 10%;
+    display: grid;
+    
+
+}
+
+.Patisserietitle{
+    display: flex;
+    justify-content: center;
+    margin-bottom: -20%;
+    color: #000;
+}
+
+.Patisseriedesc {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -10%;
+    color: #000;
+
+
+}
+
+.Patisseriebutton {
+    display: flex;
+    justify-content: center;
+}
+
+.Patisseriebutton button{
+    margin-left: 2%;
+    height: 35px;
+}
+
+.description {
+    padding-left: 3%;
+    padding-top: 30vh;
+    display: flex;
+    justify-content: center;
+    width: 420px;
+    font-size: 15px;
+
+}
+
+.samples{
+
+    display: flex;
+    justify-content: center;
+}
+
+.sampleImages{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    background-color: #041a2c;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    font-weight: 40%;
+
+}
+
+.sampleImages img{
+    height: 300px;
+    width: 300px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    border: 3px solid #000000;
+    background-color: azure;
+    border-radius: 10% ;
+
+}
+
+.breadYummy {
+    justify-content: center;
+    position: relative;
+    display: flex;
+    height: 60vh;
+    width: 100vw;
+    background-color: rgb(216, 0, 0);
+}
+
+.breadPic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10%;
+    height: 500px;
+    width: 500px;
+    background-color: rgb(255, 160, 160);
+}
+
+.moreInfo {
+    display: grid;
+    justify-content: center;
+    padding-bottom: 50px;
+ }
+
+ .moreInfo2 {
+    padding-left: 3vh;
+    
+ }
+ 
+h1 {
+    display: flex;
+    justify-content: center;
+ }
+
+ h3 {
+    display: flex;
+    justify-content: center;
+ }
+
+ h4 {
+    display: flex;
+    margin-bottom: -1%;
+ }
+
+ h5 {
+    display: flex;
+    justify-content: center;
+ }
+
+
+
+
+.siftingPart{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+  }
+
+.siftingcontainer img {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    background-color: rgb(255, 160, 160);
+    border-radius: 20%;
+}
+
+.buttonDark {
+    background-color: #000000;
+    color: white;
+    padding: 5px 5px;
+    border: 2px solid white;
+
+}
+
+.buttonLight {
+    background-color: rgba(255, 255, 255, 0);
+    color: black;
+    padding: 5px 5px;
+    border: 2px solid #000000;
+
+}
+.siftingcontainer {
+    padding-left: 3vh;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    text-align: left;
+  }
+
+.sampleImages{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    background-color: #041a2c;
+    padding: 10px;
+    justify-content: center;
+}
+
+.gridHeader {
+    padding-left: 3%;
+    text-align: left;
+    margin-top: 100px;
+}
+
+.grid-container {
+    padding-left: 3%;
+    width: 1000px;
+    padding-top: 1%;
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #000000;
+    padding: 10px;
+
+  }
+
+  .grid-item {
+    height: 300px;
+    width: 300px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    border: 3px solid #000000;
+    background-color: azure;
+    border-radius: 10% ;
+
+  }
+
+  .footer-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #000000;
+    padding: 10px;
+    margin-top: 100vh;
+  }
+
+  .footer-item {
+    padding-left: 50px;
+  }
